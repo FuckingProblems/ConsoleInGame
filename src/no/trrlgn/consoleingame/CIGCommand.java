@@ -21,6 +21,7 @@ public class CIGCommand implements CommandExecutor {
 				if(args.length == 2) {
 					if(args[0].equalsIgnoreCase("add")) {
 						if(Bukkit.getPlayer(args[1]).equals(null)) {
+							
 							sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("messages.playerNotFound")));
 						} else {
 							plugin.ch.addPlayerToWhitelist(Bukkit.getPlayer(args[1]).getUniqueId().toString());
