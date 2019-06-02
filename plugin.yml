@@ -1,6 +1,6 @@
 name: ConsoleInGame
 author: _True_Religion
-version: 2
+version: 2.1
 commands:
   consoleingame:
     aliases: [cig]
