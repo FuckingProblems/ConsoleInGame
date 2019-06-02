@@ -1,0 +1,12 @@
+whitelist:
+- "Test"
+
+messages:
+  noPermission: "&f&[&4CIG&f&l] &cSorry, you do not have permission!"
+  commandRun: "&f&l[&4CIG&f&l] &aCommand has been run from console."
+  alreadyCIG: "&f&l[&4CIGf&l] &cPlayer is already authorized for CIG."
+  commandRun: "&f&l[&4CIG&f&l] &aCommand run through console."
+  playerNotFound: "&f&l[&4CIG&f&l] &cPlayer must be online to be given CIG authorization."
+  noConsole: "&f&l[&4CIG&f&l] &cYou can't use the console for this."
+  noPlayer: "&f&l[&4CIG&f&l] &cYou must use console for this."
+  enterCommand: "&f&l[&4CIG&f&l] &cProper usage is &f/cig run <command here>&c."

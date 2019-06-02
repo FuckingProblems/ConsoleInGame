@@ -1,0 +1,7 @@
+name: ConsoleInGame
+author: _True_Religion
+version: 2
+commands:
+  consoleingame:
+    aliases: [cig]
+    usage: /cig <command to run from console>
